@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bank Software</title>
+        <link rel="stylesheet" href="software.css">
+    </head>
+    
+    <body>
+<div id="container">
+        <h1>FD investment</h1>
+        <label>Entr the Principle Amount</label>
+        <input type="number"  id="principle"><br>
+        <label >Time in years</label>
+        <input type="number" id="time" ><br>
+        <label for="">Select Bank</label>
+        <select id="Bank" value="" onchange="interest()">
+            <option value="SBI" id="">SBI</option>
+            <option value="PNB" id="">PNB</option>
+            <option value="ICICI" id="">ICICI</option>
+            <option value="BOB" id="">BOB</option>
+        </select>
+        <h1>Your Rate of Interest:</h1>
+        <h3 id="interest"></h3><br>
+        <h1>Total Amount</h1>
+        <h3 id="Amount"></h3>
+</div>
+
+    </body>
+  <script src="software.js"></script>  
+  
+</html>
